@@ -1,0 +1,72 @@
+/* Reset */
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  width: 100%;
+  /* ширина контейнера = ширина контенту + правий падінг + лівий падінг */
+  max-width: 1150px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+/* Reset end*/
+/* Menu section */
+.logo {
+width: 71px;
+height: 21px;
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 21px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+
+/* Portfolio section */
+.portfolio {
+    padding: 60px 0;
+}
+
+.portfolio-title {
+    font-family: "Raleway", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    color: #2e2f42;
+}
